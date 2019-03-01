@@ -63,9 +63,9 @@ The highest lift ratio were then plotted on a ​Multidimensional scaling​ plo
 The analysis can be further improved by calculating distances between two brands mentioned in a post and also distances between attributes and brands mentioned to see which brands/attributes are more closely associated.
 
 ### Source Data used
-* Start:
+* Start :
 https://forums.edmunds.com/discussion/18576/general/x/edmunds-members-cars-conversations/p2563
-* End:
+* End :
 https://forums.edmunds.com/discussion/18576/general/x/edmunds-members-cars-conversations/p2413
 * Number of Comments Needed for Scraping: 150 Pages (30 comments for each page)
 
