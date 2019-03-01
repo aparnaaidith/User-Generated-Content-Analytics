@@ -32,6 +32,19 @@ The objective of this group assignment was to create the building blocks of a cr
 * **Task E** : We built and tested a recommendation function, so the system will recommend the top three restaurants to the customer given the index of a restaurant the customer has already been to (based on cosine similarity and sentiment analysis).
 * **Task F** : We built another recommendation system which is simply based on the rating of the restaurants. Comparing to the recommendations generated from Task E, these restaurants have much lower cosine similarity score and sentiment analysis score. In conclusion, the recommendations generated simply from the ratings are not meeting the requirement of the customers.
 
+## Instagram Topic Modeling
+
+### Is a Picture Worth a Thousand Words?
+On Instagram, choose the National Geographic (natgeo) page. Write a scraper or use the Web Scraper to extract 
+  * image URLs (do not extract video URLs, it may end up costing you a lot of money to run analytics on video)
+  * post caption (the text description of a post), 
+  * # likes and 
+  * # comments. 
+You don’t need actual comments for this assignment. Scrape 250-500 image posts. 
+
+### Required End Result : 
+Predict engagement(no:of likes and comments)on the basis of image level and post description.
+
 
 
 
