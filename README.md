@@ -1,5 +1,5 @@
 # User-Generated-Content-Analytics
-This repository consists of the assignments done by me as a part of my Master's coursework.
+This repository consists of the assignments done by me and my teammates as a part of my Master's coursework.
 
 ## What is web-scraping?
 Web scraping is a technique for extracting information from the internet automatically using a software that simulates human web surfing.
