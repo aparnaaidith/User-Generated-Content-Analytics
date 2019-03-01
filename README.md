@@ -45,6 +45,33 @@ You don’t need actual comments for this assignment. Scrape 250-500 image posts
 ### Required End Result : 
 Predict engagement(no:of likes and comments)on the basis of image level and post description.
 
+## Brand Association Project
+This analysis involved scraping conversation messages among different users on a car forum and analyzing them to see relationship between various car brands and their respective attributes. Also, different brands were analyzed with respect to each other to see which brands are frequently mentioned together.
+
+### Notes :
+* The code has been written used Python3 using Jupyter notebook as interface
+* The code needs to be executed in a sequential fashion as in certain case previously
+created tables are referred to later
+
+### Approach :
+Conversion messages on a car forum were scraped using Selenium. Basic text processing techniques such as word tokenization, stopword removal were applied to get relevant words.
+
+Using tokenized words data, ​lift ratio​ between different brands was calculated which is the ratio of number of times 2 brands were mentioned in a particular post divided by number of times each of them were mentioned in the post individually.
+
+The highest lift ratio were then plotted on a ​Multidimensional scaling​ plot to see which brands are closely related with one another and mentioned frequently. To see which brands are closely linked with attributes such as performance, price, class, lift ratio was calculated in a similar fashion described above to see how closely these brands are associated with each of these variables. This analysis can be useful while branding a car and understanding close competitors.
+
+The analysis can be further improved by calculating distances between two brands mentioned in a post and also distances between attributes and brands mentioned to see which brands/attributes are more closely associated.
+
+### Source Data used
+* Start:
+https://forums.edmunds.com/discussion/18576/general/x/edmunds-members-cars-conve
+rsations/p2563
+* End:
+https://forums.edmunds.com/discussion/18576/general/x/edmunds-members-cars-conve
+rsations/p2413
+* Number of Comments Needed for Scraping: 150 Pages (30 comments for each page)
+
+
 
 
 
