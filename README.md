@@ -10,3 +10,16 @@ Web scraping helps us extract large volumes of data about customers, products, p
 * Python 3.0
 * Selenium package
 * Chrome driver
+
+## Twitter Sentiment Analysis
+This analysis involved scraping conversation messages(Tweets) among different users in Twitter and analyzing them to find four key issues mentioned by the public in the tweets and thereby to establish a relation and sentiment analysis on each candidate and the issue. And also candidates were analyzed with respect to large versus small cities/towns in Texas.
+
+### Notes : The code has been written used Python3 using Jupyter notebook as interface The code needs to be executed in a sequential fashion as in certain case previously created tables are referred to later
+
+### Approach : 
+Conversation messages(Tweets) in Twitter were scraped using Tweepy streaming API. Basic text processing techniques such as word tokenization, stopword removal were applied to get relevant words. Using tokenized words data, lift ratio between candidates and issues was calculated which is the ratio of probability that the candidate and issue were mentioned in a particular post divided by the probability each of them were mentioned in the post individually. The dissimilarity values (1 / lift ratio) were then plotted on a Multidimensional scaling plot to see which candidate and issue are closely related with one another and mentioned frequently. To see which candidate are closely linked with issues such as tax, gun, healthcare and oil, lift ratio was calculated in a similar fashion described above to see how closely these candidates are associated with each of these variables and then we get the dissimilarity matrix. This analysis can be useful for the candidates during election time to figure out the core issue they are related with. The analysis can be further improved by calculating the lift ratio between candidates with respect to large versus small cities/towns in Texas.
+
+
+
+
+
