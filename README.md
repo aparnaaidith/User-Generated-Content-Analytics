@@ -38,8 +38,8 @@ The objective of this group assignment was to create the building blocks of a cr
 On Instagram, choose the National Geographic (natgeo) page. Write a scraper or use the Web Scraper to extract 
   * image URLs (do not extract video URLs, it may end up costing you a lot of money to run analytics on video)
   * post caption (the text description of a post), 
-  * # likes and 
-  * # comments. 
+  * number of likes 
+  * number of comments
 You don’t need actual comments for this assignment. Scrape 250-500 image posts. 
 
 ### Required End Result : 
