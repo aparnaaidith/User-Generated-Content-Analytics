@@ -64,11 +64,9 @@ The analysis can be further improved by calculating distances between two brands
 
 ### Source Data used
 * Start:
-https://forums.edmunds.com/discussion/18576/general/x/edmunds-members-cars-conve
-rsations/p2563
+https://forums.edmunds.com/discussion/18576/general/x/edmunds-members-cars-conversations/p2563
 * End:
-https://forums.edmunds.com/discussion/18576/general/x/edmunds-members-cars-conve
-rsations/p2413
+https://forums.edmunds.com/discussion/18576/general/x/edmunds-members-cars-conversations/p2413
 * Number of Comments Needed for Scraping: 150 Pages (30 comments for each page)
 
 
